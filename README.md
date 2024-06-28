@@ -9,8 +9,7 @@ Program 2 - Computing the sum and average of any five numbers given by the user.
 
 Program 3 - Demonstrating how to swap two numbers with and without using temporary variable in java.
 
-Program 4 - Using switch case concept loops and switch case to create a java program which converts Miles to Kilometers , Kilometers to Miles , Celcius to Fahrenheit  
-            and Celcius to Fahrenheit based on user choice and each conversion is implemented using methos in java and the program exits only after the users chooses to exit
+Program 4 - Using switch case concept loops and switch case to create a java program which converts Miles to Kilometers , Kilometers to Miles , Celcius to Fahrenheit and Celcius to  Fahrenheit based on user choice and each conversion is implemented using methos in java and the program exits only after the users chooses to exit
             the program.
             
 Program 5 - Using switch case to compute the areas of circle,rectangle,square,triangle,parallelogram,equilateral-triangle,trapezium,rhombus based on the choice of the user.
