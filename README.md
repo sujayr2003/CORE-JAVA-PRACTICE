@@ -38,3 +38,13 @@ Program 15 - Unit conversion calculator for the following conversions which are 
              
 Program 16 - ATM implementation in java which can show balance, deposit and withdraw money, and has in protection.
 
+Program 17 - Switch case program to pring different patterns in java.
+
+Program 18 - Check if a number is prime or not.
+
+Program 19 - Compute the factorial of a number.
+
+Program 20 - Check if a number is automorphic or not.
+
+Program 21 - Compute the fibonacci series uptil a certain number.
+
