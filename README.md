@@ -1,7 +1,6 @@
 This is a directory which contains all the java programs I have done as a part of my java back end training at CREDO SYSTEMS under my mentor  Sridhar Raj P 
 The folder JAVA CODES contains the following content
 
-Under L1 Assessment - (Week-1)
 
 Program 1 - Using swtich case concept creating a program to compute simple intresest or compund intresest based on user choice.
 
@@ -20,7 +19,7 @@ Program 7 - Computing the Voltage,Current,and Resistance in java using menu/user
 
 Program 8 - Computing the Speed,Distance,Time in java using menu/user-driven approach.
 
-Under L2 Assessment - (Week-2)
+
 
 Program 9 - Using if else ladder to generate the grade and pass/fail status of a student based on the mark obtained in their examination.
 
