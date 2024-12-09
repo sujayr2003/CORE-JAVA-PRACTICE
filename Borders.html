@@ -1,0 +1,82 @@
+<html>
+<head>
+<style>
+p {
+  border-top-style: dotted;  border-right-style: solid;  border-bottom-style: dotted;  border-left-style: solid;
+}
+
+p.dotted {border-style: dotted;  border-color: red;}
+
+p.dashed {border-style: dashed;  border-color: green;}
+p.solid {border-style: solid;  border-radius: 5px;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset; border-width: 6px;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+
+</style>
+</head>
+<body>
+
+<h2>The border-style Property</h2>
+<p>This property specifies what kind of border to display:</p>
+
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+
+<style>
+#div {
+  width: 100px;  height: 100px;  background-color: red;  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes 	 {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+#div1 {
+  width: 50px;  height: 50px;  background-color: red;
+  position: relative;  animation-name: examples;
+  animation-duration: 4s;  animation-delay: 2s;
+}
+
+@keyframes examples {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}</style>
+<div class id="div"></div>
+<br>
+<div class id="div1"></div> <br>
+
+<h1>Create Mulitple column </h1>
+<style>
+.newspaper {
+  column-count: 3; column-gap: 40px; column-rule-style: solid; column-rule-width: 10px;  column-rule-color: lightblue;
+}
+</style>
+<div class="newspaper">
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.
+</div>
+
+</body>
+</html>
+

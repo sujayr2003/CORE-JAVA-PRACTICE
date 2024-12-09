@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Functions</h1>
+
+<p>Call a function which performs a calculation and returns the result:</p>
+
+<p id="obj"></p>
+<p id="demo"></p> 
+<p id="dem"></p> 
+<p id="toc"></p>
+<p id="demooo"></p>
+<p id="out"></p>
+<p id="ins"></p>
+
+
+
+<script>
+// Create an Object:
+const car = {type:"Fiat", model:"500", color:"white"};
+// Display Data from the Object:
+document.getElementById("obj").innerHTML = "The car type is " + car;
+document.getElementById("demo").innerHTML = "The car type is " + car.type;
+// Display Properties
+document.getElementById("dem").innerHTML = car.type + ", " + car.model + ", " + car.color;
+ 
+// function with parameters
+function myFunction(p1, p2)
+ {
+  return p1 * p2;
+}
+
+let result = myFunction(4, 3);
+document.getElementById("demooo").innerHTML = "return_function:" +result;
+
+function toCelsius(f) 
+{
+  return (5/9) * (f-32);
+}
+
+let value = toCelsius(98);
+document.getElementById("toc").innerHTML = "toCelsius:" +value;
+
+let text = "Outside: " + typeof carName;
+document.getElementById("out").innerHTML = text;
+
+function myFunctionn() {
+  let carName  = "Volvo";
+  let text = "Inside: " + typeof carName + " " + carName; 
+  document.getElementById("ins").innerHTML = text;
+}
+
+myFunctionn();
+</script>
+
+</body>
+</html>

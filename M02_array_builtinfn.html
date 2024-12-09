@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>JavaScript Arrays</h1>
+<p id="demo"></p><p id="demoo"></p><p id="demooo"></p>
+<p id="demoooo"></p><p id="demooooo"></p>
+
+<h1>Array Built in functions</h1>
+<p id="arrlen"></p><p id="arrpos"></p  >
+<p id="arrinc"></p><p id="arrsort"></p>
+<p id="arrrev"></p>
+
+<h1>Array Built in functions - Iteration, map</h1>
+<p id="arrover18"></p>
+<p id="arriterate"></p>
+<p id="arrmap"></p>
+
+<script>
+const cars = ["Saab", "Volvo", "BMW"];
+document.getElementById("demo").innerHTML = cars;
+// Another way to create an array 
+const carss = new Array("Saab", "Volvo", "BMW");
+document.getElementById("demoo").innerHTML = carss;
+document.getElementById("demooo").innerHTML = carss[0];
+carss[1] = "Opel";
+document.getElementById("demoooo").innerHTML = carss;
+document.getElementById("demooooo").innerHTML = carss.toString();
+//==========================================================================
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+document.getElementById("arrlen").innerHTML = "Size: " +fruits.length;
+let position = fruits.indexOf("Apple") + 1;
+document.getElementById("arrpos").innerHTML = "Position of the apple:" +position;
+document.getElementById("arrinc").innerHTML = "Wheather Array contains the peach:" +fruits.includes("Apple");
+
+document.getElementById("arrsort").innerHTML = "Sort the array:" +fruits.sort();
+document.getElementById("arrrev").innerHTML = "Reverse the array:" +fruits.reverse();
+
+//==========================================================================
+
+const number1 = [4, 9, 16, 25, 19];
+let first = number1.find(myFunction);
+
+document.getElementById("arrover18").innerHTML = "First number over 18 is:" + first;
+
+function myFunction(value, index, array) {
+  return value > 18; }
+
+const number2 = [45, 4, 9, 16, 25];
+
+let txt = "";
+number2.forEach(myFunctionn);
+document.getElementById("arriterate").innerHTML = "Iterate the each value and printed one by one:<br><br>" +txt;
+
+function myFunctionn(valuee, indexx, arrayy) {
+  txt += valuee + "<br>"; 
+}
+//const numbers1 = [45, 4, 9, 16, 25];
+const numbers2 = number1.map(myFunc);
+
+document.getElementById("arrmap").innerHTML = "Use Map:" +numbers2;
+
+function myFunc(value, index, array) {
+  return value * 2; }
+
+
+</script>
+</body>
+</html>
+
