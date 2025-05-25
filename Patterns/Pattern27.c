@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main(){
+    int i,j,s;
+    for(i=0;i<5;i++){
+        for(s=0;s<5-i+1;s++){
+            printf(" ");
+        }
+        for(j=1;j<=2*i-1;j++){
+   
+            printf("%d",j);
+        
+        }
+        printf("\n");
+    }
+    for(i=3;i>0;i--){
+       for(s=0;s<5-i+1;s++){
+            printf(" ");
+        }
+        for(j=1;j<=2*i-1;j++){
+
+            printf("%d",j);
+  
+        }
+        printf("\n");
+    }
+}
